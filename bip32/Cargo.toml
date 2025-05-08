@@ -1,0 +1,14 @@
+[package]
+name = "bip32"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crypto_utils = { path = "../crypto_utils" }
+secp256k1 = { version = "0.27", features = ["rand-std"] }
+proptest = "1.0"
+hmac = "0.12.1"
+hex = "0.4"
+
+[dev-dependencies]
+hex-literal = "0.3"

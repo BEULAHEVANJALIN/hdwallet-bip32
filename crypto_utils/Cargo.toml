@@ -1,0 +1,10 @@
+[package]
+name = "crypto_utils"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha2 = "0.10"
+ripemd = "0.1.0"
+hmac = "0.12"
+hex-literal = "0.3"

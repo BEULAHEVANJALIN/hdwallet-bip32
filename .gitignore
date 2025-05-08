@@ -1,0 +1,12 @@
+# Ignore all target directories recursively
+target/
+
+# Rust specific
+**/*.rs.bk
+Cargo.lock
+
+# IDE/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
